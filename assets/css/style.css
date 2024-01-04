@@ -1,6 +1,7 @@
 h1 {
-	background-color: darkgrey;
+	background-color: black;
 	text-align: center;
+    color: white;
 }
 label {
 	margin-top: 10px;
@@ -9,37 +10,29 @@ label {
 }
 .card {
 	margin: 10px;
+    color: black;
 }
 .colOne {
-	background-color: ;
-	/* darkkhaki */
+	background-color: darkgray;
+    color: black;
+	
 }
 .colTwo {
-	background-color: ;
+	background-color: black;
 }
 .histBtnRow {
 	margin-top: 5px;
 	margin-bottom: 5px;
+    background-color: darkgray;
+    color: black;
 }
-.green{
-  background-color: ;
-}
-.yellow{
-  background-color: ;
-}
-.orange{
-  background-color: ;
-}
-.red{
-  background-color: ;
-}
-.purple{
-  background-color: ;
-}
+
 .icons {
-	height: 70px;
-	width: 70px;
+	height: 100px;
+	width: 100px;
 }
 .cardTodayDate {
 	font-size: 20px;
+    background-color: darkgray;
+    color: white;
 }
