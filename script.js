@@ -22,7 +22,7 @@ $('.search').on("click", function (event) {
 });
 
 
-//Will create buttons based on search history 
+//Create btn based off of search history
 var contHistEl = $('.cityHist');
 function getHistory() {
 	contHistEl.empty();
@@ -41,7 +41,7 @@ function getHistory() {
 	} if (!city) {
 		return;
 	}
-	//Allows the buttons to start a search as well
+	//Allows the btns to start a search as well
 	$('.histBtn').on("click", function (event) {
 		event.preventDefault();
 		city = $(this).text();
@@ -80,10 +80,8 @@ function getWeatherToday() {
 		cardTodayBody.append(pElWind);
 		//Set the lat and long from the city that is being searched
 		var cityLon = response.coord.lon;
-		// console.log(cityLon);
 		var cityLat = response.coord.lat;
-		// console.log(cityLat);
-
+        //console.log long and lat
 		var getUrlUvi = `https://api.openweathermap.org/data/2.5/onecall?lat=${cityLat}&lon=${cityLon}&exclude=hourly,daily,minutely&appid=${key}`;
 
 		$.ajax({
@@ -127,7 +125,7 @@ function getFiveDayForecast() {
 				myWeather.push(testObj);
 			}
 		})
-		//Inject the cards to the screen 
+		//Initiate the cards to the screen 
 		for (let i = 0; i < myWeather.length; i++) {
 
 			var divElCard = $('<div>');

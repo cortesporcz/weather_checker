@@ -16,13 +16,13 @@
   </head>
   <body>
 			<h1>Weather Dashboard</h1>
-				<div class="container-fluid mainCon">
+				<div class="container-main">
 					<div class="row">
 						<div class="col-12 col-md-3 col-xl-3 colOne">
 							<label>Search for a City:</label>
 
 							<div class="input-group mb-3">
-								<input type="text" class="form-control textVal" placeholder="San Antonio...">
+								<input type="text" class="form-control textVal" placeholder="San Antonio, TX...">
 								<div class="input-group-append btnPar">
 									<button class="btn btn-primary search" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
 								</div>
@@ -35,7 +35,7 @@
 
 							<div class="row today">
 
-								<div class="card bg-light mb-3 " style="max-width: 400px;">
+								<div class="card bg-light mb-3 " style="max-width: 500px; max-height: 400px; font-size: small;">
 									<h2 class="card-header cardTodayCityName"></h2>
 									<h3 class="card-header cardTodayDate"></h3>
 									<img class="icons"/>
@@ -45,7 +45,10 @@
 
 							</div>
 
-							<div class="row fiveForecast"></div>
+							<div class="row fiveForecast">
+                                <!--Unable to get body of cards to render across - 5th card is in a second row-->
+                            
+                            </div>
 
 						</div>
     <script

@@ -1,7 +1,9 @@
 h1 {
+    
 	background-color: black;
-	text-align: center;
+	text-align: right;
     color: white;
+    font-weight: 300;
 }
 label {
 	margin-top: 10px;
@@ -9,30 +11,38 @@ label {
 	font-size: 20px;
 }
 .card {
-	margin: 10px;
+	margin: 20px;
     color: black;
+   
 }
+
 .colOne {
+   
 	background-color: darkgray;
     color: black;
 	
 }
 .colTwo {
-	background-color: black;
+	    
+        background-image: url('pexels-lumn-1028600.jpg');
+
 }
 .histBtnRow {
-	margin-top: 5px;
+    margin-top: 5px;
 	margin-bottom: 5px;
+    margin-left: 5px;
     background-color: darkgray;
     color: black;
+    
 }
 
 .icons {
-	height: 100px;
-	width: 100px;
+	height: 60px;
+	width: 60px;
 }
 .cardTodayDate {
 	font-size: 20px;
     background-color: darkgray;
     color: white;
+    
 }

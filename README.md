@@ -31,3 +31,4 @@ The following image shows the web application's appearance and functionality:
 
 ## Sources/ Citation and assistance
 https://getbootstrap.com/docs/4.0/components/card/
+
