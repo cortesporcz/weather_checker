@@ -82,19 +82,7 @@ function getWeatherToday() {
 		var cityLon = response.coord.lon;
 		var cityLat = response.coord.lat;
         //console.log long and lat
-		var getUrlUvi = `https://api.openweathermap.org/data/2.5/onecall?lat=${cityLat}&lon=${cityLon}&exclude=hourly,daily,minutely&appid=${key}`;
-
-		$.ajax({
-			url: getUrlUvi,
-			method: 'GET',
-		}).then(function (response) {
-			var pElUvi = $('<p>').text(`UV Index: `);
-			var uviSpan = $('<span>').text(response.current.uvi);
-			var uvi = response.current.uvi;
-			pElUvi.append(uviSpan);
-			cardTodayBody.append(pElUvi);
-			
-		});
+	
 	});
 	getFiveDayForecast();
 };
