@@ -27,8 +27,13 @@ THEN I am again presented with current and future conditions for that city
 
 The following image shows the web application's appearance and functionality:
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+![Alt text](weather_checker_ACortes.png)
+
+The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.
 
 ## Sources/ Citation and assistance
+
 https://getbootstrap.com/docs/4.0/components/card/
+Worked with Tutor Andrew Hardemon to cover APIs and CSS styling. 
+
 
